@@ -48,14 +48,18 @@
   text-align: center;
 }
 .whatblack{
-  color: white;
-  font-family: monospace;
-  text-align: center;
+      color: white ;
+      font-family: monospace;
+      text-align: center;
+      font-size: -webkit-xxx-large;
+      margin-top: 80px;
 }
 .redLetters{
-  font-size: 2rem;
+  font-size: 23px;
+  text-align: center;
   color: white;
   background-color: #e71944;
+
 
 }
 .redbotton {
@@ -139,4 +143,31 @@
   background: #125688;
   color: white;
       width: 70%;
+}
+
+.row{
+  z-index: 0;
+
+
+}
+
+.blackkappa{
+z-index: 1;
+background-color: black;
+opacity: .9;
+
+}
+.blog1{
+  vertical-align: middle;
+border-style: none;
+width: 240px;
+padding-bottom: 20px;
+background-color: #e71944;
+}
+.name{
+  color: #e71944;
+  font-family: monospace;
+}
+.descrip{
+    font-family: monospace;
 }
