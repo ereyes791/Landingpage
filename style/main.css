@@ -242,3 +242,9 @@ background-color: #e71944;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+.black{
+    position: relative;
+    background-color: darkslategray;
+    opacity: .9;
+    z-index: 1;
+}
