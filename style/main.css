@@ -2,6 +2,57 @@
     font-family: myFirstFont;
     src: url(../fonts/MKAbel.ttf);
 }
+
+.primera.jumbotron{
+
+    background-image: url('../img/try.png');margin-bottom: 3px;height: 420px;
+}
+.lema.row{
+     height: 120px;
+     padding-top: 40px;
+     font-family: myFirstFont;
+     background-color: #e8eff5;
+     max-width: 1180px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+.libro.row{
+
+    padding-top: 40px;
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tools.row{
+    padding-top: 15px;
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.testimonios.row{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.blogs.row{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social.row{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#0099cc ;
+    color:white;
+    
+}
 .nav-link {
     font-size: 20px;
     color: black;
@@ -10,6 +61,12 @@
 }
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: myFirstFont;
+}
+.whower.jumbotron{
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .jumbotron {
 
@@ -24,11 +81,7 @@
     background-color: #dc3545;
     border-color: #dc3545;
 }
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-    background-color: #e8eff5;
-}
+
 .botones{
     color: #e71944;
     font-family: myFirstFont;
@@ -182,3 +235,4 @@ background-color: #e71944;
 .descrip{
     font-family: myFirstFont;
 }
+
