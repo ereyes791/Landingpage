@@ -3,12 +3,16 @@
     src: url(../fonts/Abel-Regular.ttf);
 }
 
-.primera.jumbotron{
+.carousel.slide.primera{
+    margin-top: 60px;
+    width: 1180px;
+    height: 470px;
 
-    background-image: url('../img/try.png');margin-bottom: 3px;height: 420px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lema.row{
-     height: 120px;
+     height: auto;
      padding-top: 40px;
      font-family: myFirstFont;
      background-color: #e8eff5;
@@ -84,7 +88,7 @@
 }
 
 .botones{
-    color: #e71944;
+    color: #0099cc;
     font-family: myFirstFont;
     background-color: #fff;
     border-color: #fff;
@@ -99,8 +103,8 @@
 .botones:hover {
     font-family: myFirstFont;
     color: white;
-    background-color: #e71944;
-    border-color:#dc0e0e;
+    background-color: #0099cc;
+    border-color:#0099cc;
     transition: .5s;
     cursor: pointer;
     display: inline-block;
@@ -247,4 +251,45 @@ background-color: #e71944;
     background-color: darkslategray;
     opacity: .9;
     z-index: 1;
+}
+.carousel-item.StartPlay{
+     background-image: url("../img/Slider-StartcoachingPlayv2.png");
+    background-size: auto;
+     height: 450px;
+ }
+.carousel-item.Gen5{
+    background-image: url("../img/Slider-G4v3.png");
+
+    height: 450px;
+}
+.carousel-item.StartDiscover{
+    background-image: url("../img/Slider-StartcoachingDiscoverv2.png");
+
+    height: 450px;
+}
+.Startplay{
+
+     width: 100%;
+
+ }
+.Startgen{
+    width: 50%;
+
+}
+.Startdisco{
+    width: 80%;
+
+}
+.fondoblanco{
+    background-color: whitesmoke;
+    opacity: .7;
+    font-size: 2px;
+    width: 70%;
+}
+.startletras{
+    font-size: 20px;
+    color: #1a3b54;
+    opacity:1;
+    font-family: myFirstFont;
+
 }

@@ -16,52 +16,145 @@
 </head>
 <body >
 <div class="container-fluid">
-      <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="img/logo.png" width="50px"> </img>
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    top:0;
+">
+        <a class="navbar-brand logo" href="#">
+            <div>
+            <img src="img/logo.png" width="45px" height="30px">
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">PROGRAMACIÓN  <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LIBRO  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TOOLKIT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">NOSOTROS</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BLOG</a>
+                </li>
+            </ul>
 
-    <ul class="nav justify-content-center">
-        <li class="nav-item ">
-            <a class="nav-link active" href="#">Programacion</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Libro</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Herramientas</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="#"><img src="http://icons.iconarchive.com/icons/custom-icon-design/mono-general-2/512/search-icon.png" width="30px"> </img></a>
-        </li>
-    </ul>
-</nav>
+    </span>
+        </div>
+    </nav>
 
-    <div class="jumbotron primera">
-        <div class="jumbo">
+    <div id="carouselExampleIndicators" class="carousel slide primera" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item StartPlay active" >
+                <div class="row">
+                    <div class="col-6" style="margin-top: 100px;">
+                        <img  class="Startplay" src="img/start1.png" >
+
+                    </div>
+                    <div class="col-6">
 
 
 
-            <div class="row">
-                <div class="col">
-                    <h3 align="center">WORKSHOP</h3>
-                    <h2 align="end">STARTCOACHING</h2>
-                </div>
-                <div class="col">
-                    <h4 align="center">DESCUBRE EL PODER DE LA PRÁCTICA DE COACHING DE EMPRENDIMIENTO E INNOVACIÓN, DE LA MANO DE SUS CREADORES
-                    </h4>
-                    <p class="lead" align="center">
-                        <a class="redbotton" href="#" role="button"><span>Participar</span></a>
-                    </p>
+                        <div align="center" style="margin-top: 200px;">
+                            <div class="fondoblanco">
+                                <h2 class="startletras">
+                                    DESCUBRE EL PODER DE LOS OBJETOS
+                                    3D PARA EL DISEÑO DE PROPUESTAS DE
+                                    VALOR MÁS INNOVADORAS
+
+                                </h2>
+
+
+                            </div>
+
+                            <a class="redbotton" href="#" role="button"><span>Participar</span></a>
+                        </div>
+                    </div>
 
 
                 </div>
 
             </div>
+            <div class="carousel-item Gen5">
+
+                    <div class="col-12" align="center">
+                        <img  class="Startgen" src="img/Start3.png"align="center" >
+
+                        <div align="center">
+                            <h3 style="text-align: center; font-family: myFirstFont; color: white">
+                                Emprende el viaje de convertirte en un coach de E & I
+
+                            </h3>
+
+                            <a class="redbotton" href="#" role="button"><span>Participar</span></a>
+                        </div>
+                    </div>
+
+                
+
+            </div>
+            <div class="carousel-item StartDiscover">
+                <div class="row">
+                    <div class="col-6">
+                        <div align="center" style="margin-top: 120px;">
+                            <div class="fondoblanco">
+                                <h2 class="startletras">
+                                    DESCUBRE EL PODER DE LA PRÁCTICA DE COACHING
+                                    DE EMPRENDIMIENTO E INNOVACIÓN, DE LA MANO
+                                    DE SUS CREADORES
+
+
+                                </h2>
+
+
+                            </div>
+
+                            <a class="redbotton" href="#" role="button"><span>Participar</span></a>
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <img  class="Startdisco" src="img/Start2.png" align="centre" >
+
+                    </div>
+
+
+                </div>
+
+
+
+                </div>
+                
+                
+
+            </div>
+
+
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
     <div style="background-color: #e8eff5;">
             <div class="row lema"">
@@ -123,6 +216,7 @@
 
                 <div class="row">
                     <div class="col-12 col-lg-6">
+                        <br><br><br><br>
                         <h3 class="what"align="center">Somos una comunidad de aprendizaje
                             comprometida en ayudar a los protagonistas
                             del cambio: los emprendedores, líderes de
@@ -131,7 +225,7 @@
 
                     </div>
                     <div class="ccol-12 col-lg-6">
-                        <iframe width="640" height="360" src="https://www.youtube.com/embed/i0rPZdqyYqc" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="540" height="360" src="https://www.youtube.com/embed/i0rPZdqyYqc" frameborder="0" allowfullscreen></iframe>
 
                     </div>
 
@@ -139,6 +233,7 @@
                 </div>
                 <div align="center">
 
+                        <h5 class="what"align="center">¿Quieres convertirte en un coach junto a nosotros?</h5>
 
                     <a class="redbotton" href="#" role="button"><span>Participar</span></a>
                 </div>
