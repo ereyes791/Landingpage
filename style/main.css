@@ -2,7 +2,11 @@
     font-family: myFirstFont;
     src: url(../fonts/Abel-Regular.ttf);
 }
+.carousel.slide{
+    margin-top: 10%;
+    margin-bottom:10% ;
 
+}
 .carousel.slide.primera{
     margin-top: 60px;
     max-width: 1180px;
@@ -10,8 +14,10 @@
 
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0px;
 }
 .lema.row{
+    margin-top: -18px;
      height: auto;
      padding-top: 40px;
      font-family: myFirstFont;
@@ -237,6 +243,7 @@ background-color: #e71944;
 
  }
 .Startgen{
+    margin-top: 30px;
     width: 50%;
 
 }
@@ -289,5 +296,25 @@ background-color: #e71944;
     background-image: url('../img/team.png');    background-size: 100%;
     background-repeat: no-repeat;
     min-height: 320px;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 5px 2px;
+    background:  #0099cc;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    background-color: #0099cc;
+    color: white;
+    font-size: 25px;
+    transition: .23s;
+    text-decoration: none;
+
 
 }
