@@ -24,7 +24,7 @@
     overflow: hidden;
     top:0;
 ">
-        <a class="navbar-brand logo" href="#">
+        <a class="navbar-brand logo" href="../index.html">
             <div>
                 <img src="../img/logo.png" width="45px" height="30px">
             </div>
@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">PROGRAMACIÓN  <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="programacion.html">PROGRAMACIÓN  <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">LIBRO  </a>
@@ -61,7 +61,7 @@
         <div class="row">
                 <div class="col-6"></div>
                 <div class="col-6 prog">
-                        <div class="fondoblanco">
+                        <div class="fondoblanco" style="width: 70%">
                             <h1 style="color: #163853;  font-family: myFirstFont;" align="center"><b>PROGRAMACIÓN</b></h1>
                             <h2 class="startprog">
                                 NO TE PIERDAS NUESTRAS
@@ -80,33 +80,13 @@
 </div>
 
 <div class="programacion">
-    <h5 class="tag">Filtra</h5>
-    <div class="btn-group programacion" data-toggle="buttons">
-        <label class="btn btn-secondary active">
-            <input type="radio" name="options" id="option1" autocomplete="off" checked> TODO
-        </label>
-        <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option2" autocomplete="off"> CERTIFICACIONES
-        </label>
-        <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option3" autocomplete="off"> WORKSHOPS
-        </label>
-        <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option3" autocomplete="off"> CURSOS CORTOS
-        </label>
-        <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option3" autocomplete="off"> EVENTOS OTROS
+    <h5 class="tag">Cursos</h5>
 
-        </label>
-
-
-
-    </div>
 
 
     <div class="row cursos">
             <div class="col-12 col-lg-4 picture">
-            <a href="">
+            <a href="programa2.html">
 
                     <div style="background-color: #0099cc ;height: 230px;">
 
@@ -122,7 +102,7 @@
             </a>
             </div>
         <div class="col-12 col-lg-4 picture">
-            <a href="">
+            <a href="programa.html">
 
                 <div style="background-color: #163853; height: 230px" >
 
@@ -131,30 +111,14 @@
                 <div>
                     <h3 class="titulo" align="center">Workshop: Startcoaching discover
                     </h3>
-                    <h5 class="fecha" align="center">Caracas (11,12 y 13 de octubre de 2017)</h5>
+                    <h5 class="fecha" align="center">CARACAS (DEL 23 AL 26 DE NOVIEMBRE)</h5>
 
 
                 </div>
 
             </a>
         </div>
-        <div class="col-12 col-lg-4 picture">
-            <a href="">
 
-                <div style="background-color: #cccccc ;height: 230px">
-
-                    <img src="../img/start1.png" width="100%">
-                </div>
-                <div>
-                    <h3 class="titulo" align="center">Taller: “Startcoaching Play”
-                    </h3>
-                    <h5 class="fecha" align="center">Caracas (11 de noviembre de 2017)</h5>
-
-
-                </div>
-
-            </a>
-        </div>
     </div>
 
 
@@ -165,34 +129,41 @@
 
       <div class="row">
           <div class="col-md-6 mb-3">
-                  <form>
+              <form>
 
-                          <label for="validationServer01">First name</label>
-                          <input type="text" class="form-control" id="validationServer01" placeholder="First name" required>
+                  <label for="validationServer01">¿Cómo te llamas?</label>
+                  <input type="text" class="form-control" id="validationServer01" placeholder="Nombres" required>
 
-                      <div class="form-group">
-                          <label for="exampleFormControlInput1">Email address</label>
-                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-                      </div>
-                      <div class="form-group">
-                          <label for="exampleFormControlInput1">Telefono</label>
-                      <input class="form-control" type="text" placeholder="Default input" required>
-                        </div>
-                      <div class="form-group">
-                          <label for="exampleFormControlTextarea1">Example textarea</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                  </form>
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Email</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleFormControlInput1">Telefono</label>
+                      <input class="form-control" type="text" placeholder="Telefono" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="exampleFormControlTextarea1">¿Qué deseas saber?</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
 
           </div>
           <div class="col-md-6 mb-3">
-
-              <h4>Contactanos</h4>
-
-              <i class="fa fa-whatsapp" aria-hidden="true"><h3>0414-2138331
-              </h3></i>
-
+              <div class="col-12">
+                  <h4>Envíanos un mensaje a: </h4>
+              </div>
+              <div class="row">
+                  <div class="col-6">
+                      <i class="fa fa-whatsapp" aria-hidden="true" style="color: green;"></i>
+                  </div>
+                  <div class="col-6">
+                      <br>
+                      <h3>0414-2138331
+                      </h3>
+                  </div>
+              </div>
 
           </div>
 
