@@ -17,15 +17,24 @@
     margin-bottom: 0px;
 }
 .lema.row{
+      margin-top: -18px;
+      height: auto;
+      padding-top: 40px;
+      font-family: myFirstFont;
+      background-color: #e8eff5;
+      max-width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+.proposito.row{
     margin-top: -18px;
-     height: auto;
-     padding-top: 40px;
-     font-family: myFirstFont;
-     background-color: #e8eff5;
-     max-width: 1180px;
-     margin-left: auto;
-     margin-right: auto;
- }
+    height: auto;
+    padding-top: 40px;
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .libro.row{
 
     padding-top: 40px;
@@ -234,7 +243,7 @@ background-color: #e71944;
     height: 450px;
 }
 .carousel-item.StartDiscover{
-    background-image: url("../img/Slider-StartcoachingDiscoverv2.png");
+    background-image: url("../img/producto.png");
 
     height: 450px;
 }
@@ -261,7 +270,7 @@ background-color: #e71944;
 }
 .startletras{
     font-size: 20px;
-    color: #1a3b54;
+    color: white;
     opacity:1;
     font-family: myFirstFont;
 
@@ -415,7 +424,7 @@ background-color: #e71944;
 }
 .producto{
     font-family: myFirstFont;
-    margin-top: 60px;
+
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -426,7 +435,7 @@ background-color: #e71944;
 .producto2{
     height: 322px;
     font-family: myFirstFont;
-    margin-top: 60px;
+
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -486,3 +495,80 @@ background-color: #e71944;
     background-color: #0099cc;
     border-color: #0099cc;
 }
+
+.home  {
+    background-image: url("../img/Slider-G4v3.png");
+
+
+    height:450px;
+    padding-top: 40px;
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.letrashome{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #0099cc;
+    text-decoration: none;
+    color: white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    color: #0099cc;
+}
+.dropbtn{
+    padding-top: 8%;
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
+    font-family: myFirstFont;
+    font-size: 20px;
+}
+.Aplicacion{
+    font-family: myFirstFont;
+    max-width: 1180px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
