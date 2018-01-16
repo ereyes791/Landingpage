@@ -16,7 +16,7 @@
     margin-right: auto;
     margin-bottom: 0px;
 }
-.lema.row{
+.lema.row{ padding-bottom: 40px;
       margin-top: -18px;
       height: auto;
       padding-top: 40px;
@@ -57,6 +57,7 @@
     max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
+    height: 350px;
     
 }
 .blogs.row{
@@ -238,12 +239,12 @@ background-color: #e71944;
      height: 450px;
  }
 .carousel-item.Gen5{
-    background-image: url("../img/Slider-G4v3.png");
+    background-image: url("../img/BackgrundGEN%20.png");
 
     height: 450px;
 }
 .carousel-item.StartDiscover{
-    background-image: url("../img/producto.png");
+    background-image: url("../img/Background-discover.png");
 
     height: 450px;
 }
@@ -269,7 +270,7 @@ background-color: #e71944;
     padding-bottom: 10%;
 }
 .startletras{
-    font-size: 20px;
+   text-align: center;
     color: white;
     opacity:1;
     font-family: myFirstFont;
@@ -424,22 +425,22 @@ background-color: #e71944;
 }
 .producto{
     font-family: myFirstFont;
-
+    height: 400px;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../img/producto.png")   ;
+    background-image: url("../img/Background-discover.png")   ;
     background-size: 100%;
 
 }
 .producto2{
-    height: 322px;
+    height: 400px;
     font-family: myFirstFont;
-
+    padding-top: 5%;
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../img/Slider-G4v3.png")   ;
+    background-image: url("../img/BackgrundGEN%20.png")   ;
     background-size: 100%;
 
 }
@@ -569,6 +570,10 @@ background-color: #e71944;
     margin-left: auto;
     margin-right: auto;
 
+}
+.carousel.slide {
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 
