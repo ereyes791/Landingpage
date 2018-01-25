@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ddff118-fa23-45f2-8061-ef201d73756e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/main.css" afterPath="$PROJECT_DIR$/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/programa.html" afterPath="$PROJECT_DIR$/view/programa.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/programa2.html" afterPath="$PROJECT_DIR$/view/programa2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/programacion.html" afterPath="$PROJECT_DIR$/view/programacion.html" />
     </list>
     <ignored path="cursos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,8 +88,8 @@
       <file leaf-file-name="programa2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/programa2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2077923">
-              <caret line="812" column="63" selection-start-line="812" selection-start-column="57" selection-end-line="812" selection-end-column="63" />
+            <state vertical-scroll-proportion="-4.155844">
+              <caret line="449" column="136" selection-start-line="449" selection-start-column="124" selection-end-line="449" selection-end-column="136" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -249,6 +245,7 @@
                 <element signature="n#style#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#div#15;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -264,7 +261,7 @@
       <file leaf-file-name="programa.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/programa.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
+            <state vertical-scroll-proportion="0.4509804">
               <caret line="326" column="144" selection-start-line="326" selection-start-column="144" selection-end-line="326" selection-end-column="144" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1380,8 +1377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/programa2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2077923">
-          <caret line="812" column="63" selection-start-line="812" selection-start-column="57" selection-end-line="812" selection-end-column="63" />
+        <state vertical-scroll-proportion="-4.155844">
+          <caret line="449" column="136" selection-start-line="449" selection-start-column="124" selection-end-line="449" selection-end-column="136" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1537,6 +1534,7 @@
             <element signature="n#style#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#14;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#15;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#16;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1550,7 +1548,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/programa.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
+        <state vertical-scroll-proportion="0.4509804">
           <caret line="326" column="144" selection-start-line="326" selection-start-column="144" selection-end-line="326" selection-end-column="144" />
           <folding>
             <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
