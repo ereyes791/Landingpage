@@ -549,16 +549,18 @@ background-color: #e71944;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+    border-color: transparent;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     color: #0099cc;
+    border-color: transparent;
 }
 .dropbtn{
     padding-top: 8%;
-    border-color: #f8f9fa;
-    background-color: #f8f9fa;
+    border-color: transparent;
+    background-color: transparent;
     font-family: myFirstFont;
     font-size: 20px;
 }
