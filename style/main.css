@@ -250,6 +250,16 @@ background-color: #e71944;
 
     height: 450px;
 }
+.carousel-item.Practitioner{
+    background-image: url("../img/Background-Practitioner.png");
+
+    height: 450px;
+}
+.carousel-item.AcademiaN{
+    background-image: url("../img/Background-academia%20n%20(1).png");
+
+    height: 450px;
+}
 .Startplay{
 
      width: 100%;
