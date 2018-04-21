@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="es" >
 <head>
+
     <link rel="icon" type="image/png" href="../img/favicon.ico">
     <link rel="stylesheet" id="googlefonts_heading-css" href="http://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C400italic%2C700&amp;ver=3.8.1" type="text/css" media="all">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../style/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <meta  charset="utf-8">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="scripts/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+</style>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
@@ -18,7 +36,7 @@
 </head>
 <body >
 <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"  >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"  style="margin-bottom: 60px;">
         <div class="row" style="width: 100%">
             <div class="col-5">
                 <a class="navbar-brand logo" href="../index.html" >
@@ -29,14 +47,15 @@
 
 
             </div>
-            <div  class="col-7" align="right" style="margin-top: 17px;">
+            <div  class="col-7" align="right" >
                 <ul class="nav justify-content-end">
                     <li class="nav-item ">
                         <div class="dropdown">
                             <button class="dropbtn">APRENDER</button>
                             <div class="dropdown-content" align="center">
                                 <a href="programa2.html">GEN5</a>
-
+                                <a href="programa3.html">ACADEMIA N</a>
+                                <a href="programa4.html">PRACTITIONER</a>
                             </div>
                         </div>
                     </li>
@@ -85,8 +104,7 @@
             </div>
 
     </div>
-    <div style="background-color: #e8eff5;font-family: myFirstFont;max-width: 1100px;   margin-left: auto;
-    margin-right: auto; padding-top:2%; padding-bottom: 2%; ">
+    <div style="background-color: #e8eff5;font-family: myFirstFont;max-width: 1100px; margin-left: auto;margin-right: auto; padding-top:2%; padding-bottom: 2%; ">
        <div class="row">
            <div class="col-2" align="center">
                <img src="../img/Personaje-Entrenando.png" width="50%">
@@ -111,13 +129,14 @@
             </h1>
             <br><br>
             <div class="col-12" align="center" >
-                <h3 style=" font-family: myFirstFont; text-align: center;">
-                    DISCOVER es un workshop Intensivo de 4 días, diseñado para coaches profesionales practicantes que
-                    se sientan llamados a servir como entrenadores y facilitadores de aprendizaje de emprendedores y
-                    líderes de innovación. Los participantes conocen las bases profundas en que se funda la práctica
-                    y podrán desarrollar competencias para iniciarse con efectividad y fluidez en la práctica de coaching
-                    para el emprendimiento y la innovación con clientes reales.
-                </h3>
+                <h4 style=" font-family: myFirstFont; text-align: center;">
+                  DISCOVER es un workshop intensivo de 4 días que te permitirá descubrir la práctica
+                   de coaching de emprendimiento e innovación. El viaje de aprendizaje incluye poderosas
+                   conferencias para dar contexto y entender el modelo teórico que funda nuestra práctica.
+                   También desarrolla experiencias reales de emprendimiento para que, de la mano de un coach
+                   , puedes redescubrir tu Ser emprendedor y vivir la aventura de un equipo de innovación.
+
+                </h4>
                 <br><br>
 
             </div>
@@ -128,114 +147,131 @@
 
         </div>
     </div>
-    
-    <div class="col-12">
-        <img src="../img/Slider-StartcoachingDiscoverv2.png" alt="" width="100%">
-        
-        
-    </div>
-    <div class="col-12">
-            <h2 style="text-align: center; font-family: myFirstFont;padding-top: 5%;">EL ENFOQUE DE APRENDIZAJE
 
+    <div class="row" style="font-family: myFirstFont;max-width: 1100px; margin-left: auto;margin-right: auto; padding-top:2%;">
+        <div class="col-12" align="center" style="padding-bottom: 5%; padding-top: 5%;">
 
-
-
-            </h2>
-        <br><br>
-        <div class="col-12" align="center" >
-            <h4 style=" font-family: myFirstFont; text-align: center;">
-                El enfoque de aprendizaje de este workshop es el de un <b>BootCamp </b>. En él los participantes aprenderán
-                mucho en poco tiempo, porque están completamente inmersos en experiencias de emprendimiento, para
-                que esta pueda ser una expresión natural de su ser y de sus conversaciones. <br>
-                Al rodearse de colegas, formando equipos de trabajo y dedicados a resolver los retos y desafíos que
-                la dinámica plantea, se ven obligados durante 4 días, a alejarse de las distracciones y a acelerar
-                el proceso de aprendizaje de forma inimaginable.
-
-            </h4>
-            <br><br>
+                <h2> ¿QUÉ APRENDERÁS?</h2>
 
         </div>
+        <div class="col-12" align="center">
+            <h4>
+              Comprenderás  el contexto tecnológico, social y cultural que está impactando profundamente
+               a las organizaciones y cómo ahora el emprendimiento y la innovación son competencias claves
+               en el mundo de hoy. <br><br>
+
+
+              Descubrirás cómo piensan, sienten y actúan los emprendedores, a través de un simulador
+               que te permitirá vivir la experiencia real de lanzar un startup en 48 horas.<br><br>
+
+               Conocerás los principales ámbitos de acción del coaching de emprendimiento e innovación, desarrollando
+               tu propio proyecto, con acompañamiento online, en 6 semanas.
+               <br><br>
+
+            </h4>
+
+        </div>
+
+
+
+</div>
+
+
+    <div class="col-12">
+
 
 
     <div class="queAprenderas">
         <div class="row">
 
             <div class="col-12" style="text-align: center; padding-bottom: 4%; padding-top: 7%">
-                <h2 style=""> <b>PRINCIPIOS
+                <h2> <b>PRINCIPIOS DE APRENDIZAJE
 
                 </b> </h2>
 
             </div>
-            <div class="row" style="padding-bottom: 5%;">
 
-            <div class="col-2 " align="center"><img src="../img/p1.png" width="50%" > </img></div>
+        </div>
+            <div class="row" style="padding-bottom: 5%; padding-left: 20%;">
+
+            <div class="col-2 " align="center"><img src="../img/p1.png" width="100%" > </img></div>
             <div class="col-10" style="padding-right: 6%;">
 
-                <h4 style="text-align: justify; font-family: myFirstFont;"><b>Modalidad de BootCamp
+                <h4 style="text-align: justify; font-family: myFirstFont;"><b>Metáfora del  descubrimiento
                 </b>
                     <br>
-                    Lo que distingue a un bootcamp de otros formatos es su carácter intensivo y de inmersión total en el aprendizaje  y en la resolución de problemas reales en el contexto del emprendimiento y la innovación. El papel de los coaches y facilitadores en un bootcamp es decisivo para su éxito.
-                </h4>
+              </h4>
 
             </div>
 
         </div>
-            <div class="row" style="padding-bottom: 5%;">
+            <div class="row" style="padding-bottom: 5%;padding-left: 20%;">
 
-                <div class="col-2 " align="center"><img src="../img/p2.png" width="50%" > </img></div>
+                <div class="col-2 " align="center"><img src="../img/p6.png" width="100%" > </img></div>
                 <div class="col-10" style="padding-right: 6%;">
 
-                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Aprendizaje activo
+                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Conferencias  que entregan un contexto poderoso
                     </b>
                         <br>
-                        El aprendiz es el centro del proceso de aprendizaje. Cada participante parte de su propia experiencia y desde allí se inicia su proceso. Los participantes recorren el camino, en el que luego ellos acompañarán a sus aprendices.
                     </h4>
 
                 </div>
 
             </div>
-            <div class="row" style="padding-bottom: 5%;">
+            <div class="row" style="padding-bottom: 5%;padding-left: 20%;">
 
-                <div class="col-2 " align="center"><img src="../img/p3.png" width="50%" > </img></div>
+                <div class="col-2 " align="center"><img src="../img/p3.png" width="100%" > </img></div>
                 <div class="col-10" style="padding-right: 6%;">
 
-                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>La metáfora del viaje
+                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Simuladores de la realidad
                     </b>
                         <br>
-                        Diseñamos el proceso de aprendizaje como un viaje de descubrimiento y transformación personal. Como todo viaje, tendremos un puerto de embarque y estaciones con cosas que descubrir. En cada estación tendremos desafíos que nos llevarán a procesos de descubrimiento. Habrán descubrimientos en el mundo externo, pero también tendremos que descubrir cosas en nuestro mundo interno.
 
                     </h4>
 
                 </div>
 
             </div>
-            <div class="row" style="padding-bottom: 5%;">
+            <div class="row" style="padding-bottom: 5%;padding-left: 20%;">
 
-                <div class="col-2 " align="center"><img src="../img/p4.png" width="50%" > </img></div>
+                <div class="col-2 " align="center"><img src="../img/p4.png" width="100%" > </img></div>
                 <div class="col-10" style="padding-right: 6%;">
 
-                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>El simulador
+                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Aprendizaje basado en desafíos
 
                     </b>
                         <br>
-                        Nuestro programa no tiene “tareas para la casa” ni entregas de trabajos escritos… sino que se basa en desafíos. El desafío principal de este workshop lo realizaremos mediante una experiencia simulada de dos días y medio, donde reproduciremos las vivencias reales de un equipo emprendedor mientras intenta iniciar una nueva empresas basada en la innovación.
                     </h4>
 
                 </div>
 
             </div>
-            <div class="row" style="padding-bottom: 5%;">
+            <div class="row" style="padding-bottom: 5%;padding-left: 20%;">
 
-                <div class="col-2 " align="center"><img src="../img/p5.png" width="50%"> </img></div>
+                <div class="col-2 " align="center"><img src="../img/p2.png" width="100%"> </img></div>
                 <div class="col-10" style="padding-right: 6%;">
 
-                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Espacio virtual de aprendizaje
+                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Descubrimiento del Ser emprendedor
+
 
                     </b>
                         <br>
-                        Todas las clases del programas estarán disponibles en el espacio virtual y estarán disponibles para verlas en cualquier lugar, en cualquier momento y las veces que quieras.
+
+                    </h4>
+
+                </div>
+
+            </div>
+            <div class="row" style="padding-bottom: 5%;padding-left: 20%;">
+
+                <div class="col-2 " align="center"><img src="../img/p5.png" width="100%"> </img></div>
+                <div class="col-10" style="padding-right: 6%;">
+
+                    <h4 style="text-align: justify; font-family: myFirstFont;"><b>Clases virtuales y experiencia online
 
 
+                    </b>
+                        <br>
 
                     </h4>
 
@@ -245,488 +281,142 @@
 
 
       </div>
-    </div>
-    <div style="background-color: #e8eff5; width: 100%">
-        <div class="Facilitadores">
-            <div class="row">
-                <div class="col-12 col-lg-6" align="center">
-
-                    <img src="../img/team.png" width="100%">
-
-                </div>
-                <div class="col-12 col-lg-6">
-                    <br><br>
-
-
-                    <h3 class="what"align="center">
-                        Entre los líderes académicos de la Escuela se encuentran pioneros en la práctica del coaching ontológico en Venezuela.
-                        <br> <br>
-                        Nuestros coaches master acumulan más de 30 mil horas de coaching y otras miles de entrenamiento a nuevos coaches y coaches
-                        supervisores en  América Latina.
-                        <br><br>
-                        Ellos son: Esteban Reyes, María Milagros Verde, Raixa Rivero y Harry López.
-
-                    </h3>
-                </div>
-
-
-
-
-
-
-            </div>
-        </div>
-    </div>
-
-
-            <div class="row">
-                <div class="col-12" align="center" style="padding-bottom: 5%; padding-top: 5%;">
-
-                        <h2 style="font-family: myFirstFont;" > ¿QUÉ APRENDERÁS?</h2>
-
-                </div>
-
-                    <div class="col-12" style="padding-left: 10%; padding-right: 5%" >
-
-                            <ul style="text-align: justify; font-family: myFirstFont;font-size: 20px;">
-                                <li>El poder de los  <b>contextos</b> y de las <b>narrativas </b>en la configuración de los mundo o ecosistemas de emprendimiento y la innovación.</li>
-                                <li>Distinguir el emprendimiento y la innovación como <b>dominios conversacionales</b>a través de los cuales se crean empresas y se inventan nuevos mundos</li>
-                                <li>Distinguir <b>quiebres, estados de ánimo  y creencias</b> que suelen limitar y condicionar el desempeño de los emprendedores y líderes de innovación.
-                                </li>
-                                <li>Comprender  <b>cómo piensan los emprendedores </b> y cómo trabajan en <b> entornos de alta incertidumbre.</b>
-
-                                </li>
-                                <li> <b>Métodos </b>y las <b>herramientas visuales </b>que usan los emprendedores en todo el mundo, para crear y compartir sus ideas, visiones y modelos de los negocios que se proponen crear.
-                                </li>
-                                <li> Una visión <b>ética de las empresas </b>, que las visualiza como una fuerza positiva para la solución de los grandes desafíos que enfrenta la comunidad global.
-                                </li>
-                                <li> Cómo los emprendedores innovadores <b>escuchan a sus clientes </b>, crean experimentos y validan sus hipótesis de un negocio.
-                                </li>
-                                <li> Cómo las <b>organizaciones pueden diseñar y desarrollar una cultura </b>con nuevas prácticas, habilidades y mentalidad de innovación.</li>
-                            </ul>
-
-                </div>
-
-        </div>
-        </div>
-
-
-
-    </div>
-
-
-
-    <div class="Contenido">
-
-                <div class="row contenido">
-
-                    <div class="col-12">
-                        <div align="center" style="position: absolute;
-                                                margin-left: 40%;
-    top: -25px;">
-                            <h1 class="what"align="center" style="padding: 10%; background-color:#dc3545; color: white; top: -16px; width:212px;">CONTENIDO
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-        <div style="width: 10px;height: 30px; background-color: #0e90d2;    position: relative;
-    top: 86px;
-    margin-left: 50%;"></div>
-
-
-                    <div  class="col-12">
-                    <div class="row contenedor" style="margin-top:70px; width: 100%; " >
-
-                        <div class="fondoblanco" style="margin: 5%; width: 100% ">
-                            <div class="row">
-                                    <div class="col-12" align="center" style="padding-bottom: 10%;">
-                                            <h3><b>DÍA 1:</b><br>
-                                                INTRODUCCIÓN GENERAL AL COACHING DE EMPRENDIMIENTO
-                                                E INNOVACIÓN.
-
-
-                                            </h3>
-
-
-                                    </div>
-
-                                <div class="col-4" align="center">
-
-                                <h4>MAÑANA</h4>
-
-                            </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        CONTEXTO GENERAL LA PRÁCTICA DE COACHING PARA EL EMPRENDIMIENTO Y LA INNOVACIÓN
-
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                            <li>Comprender los contextos y narrativas globales que impulsan el emprendimiento en escala mundial.</li>
-                                            <li>La revolución digital y el cambio disruptivo de la sociedad abre el espacio de innovación a escala masiva.
-                                        </li>
-                                            <li>La explosión del potencial humano y de las múltiples facetas que esta toma para liberar los talentos de las personas.</li>
-                                            <li>Los negocios como una fuerza positiva de transformación social. </li>
-
-                                        </ul>
-
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-                                    <h4>TARDE</h4>
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        HACIA UNA ONTOLOGÍA DE LA ACCIÓN EMPRENDEDORA
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                            <li>Enmarcar el emprendimiento como una expresión natural del ser humano.</li>
-                                            <li>Ontología del ser emprendedor.
-                                            </li>
-                                            <li>El emprendimiento como un dominio de conversaciones. </li>
-                                            <li>El dominio lingüístico del emprendedor y las conversaciones claves que él debe manejar.  </li>
-                                            <li>El modelo ontológico de la acción emprendedora. </li>
-                                            <li>Los condicionantes de la acción emprendedora. </li>
-                                            <li>En qué consiste la práctica de coaching para el emprendimiento y la innovación </li>
-                                        </ul>
-
-                                    </h4>
-
-                                </div>
-
-
-
-                            </div>
-
-                        </div>
-                </div>
-
-            </div>
-
-                    <div style="width: 10px;height: 50px; background-color: #0e90d2;    position: relative;
-    top: 38px;
-    margin-left: 50%;"></div>
-
-                    <div  class="col-12">
-                    <div class="row contenedor" style="margin-top:70px; font-family: myFirstFont; width: 100%;">
-
-                        <div class="fondoblanco" style="margin: 5%; width: 100%">
-                            <div class="row">
-                                <div class="col-12" align="center" style="padding-bottom: 5%;">
-                                    <h3><b>DÍA 2: </b><br>
-                                        BASES METODOLÓGICAS DE LA PRÁCTICA DE COACHING
-
-
-
-                                    </h3>
-
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-                                    <h4>MAÑANA</h4>
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        UN LENGUAJE PARA EMPRENDER
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                            <li>Introducción al espacio de distinciones del emprendedor.</li>
-                                            <li>El problema de distinguir en qué negocio estoy.
-                                            </li>
-                                            <li>El modelo de negocios como un lenguaje general para comenzar el diseño de una empresa.</li>
-
-                                            <li>El problema de la gestión de la innovación. </li>
-                                            <li>Ontología del método general para la gestión de la innovación. </li>
-
-                                        </ul>
-
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-                                    <h4>TARDE</h4>
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        INICIO DEL SIMULADOR
-                                    </h4>
-
-                                </div>
-
-                                <div class="col-4" align="center">
-
-
-                                </div>
-                                <div class="col-7" style="padding-bottom: 2%">
-                                    <h4>
-                                        <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                            <li>La conformación de los equipos de innovación.</li>
-                                            <li>La formación de equipos fundadores.
-                                            </li>
-                                            <li>Enfoque sistémico de la fundación de una empresa.</li>
-                                            <li>Presentación del desafío.  </li>
-                                            <li>El coaching como un espacio de posibilidades para la innovación en el mundo educativo. </li>
-                                            <li>Competencia de pitch entre los participantes.  </li>
-                                            <li>Dinámicas para la formación de equipos de innovación.	 </li>
-                                        </ul>
-
-                                    </h4>
-
-                                </div>
-
-
-
-                            </div>
-
-
-                          </div>
-                        </div>
-                    </div>
-
-
-
-
-                    <div class="col-12">
-                        <div style="width: 10px;height: 50px; background-color: #0e90d2;    position: relative;
-                            top: 38px;
-                            margin-left: 50%;"></div>
-                    </div>
-
-                    <div  class="col-12">
-                        <div class="row contenedor" style="margin-top:70px; font-family: myFirstFont;width: 100%;">
-
-                            <div class="fondoblanco" style="margin: 5%; width: 100%">
-
-
-                                <div class="row">
-                                    <div class="col-12" align="center" style="padding-bottom: 10%;">
-                                        <h3><b>DÍA 3:  </b><br>
-                                            APRENDIENDO LA PRÁCTICA DE EMPRENDIMIENTO E INNOVACIÓN.
-
-
-
-                                        </h3>
-
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-                                        <h4>MAÑANA</h4>
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            DESCUBRIENDO  EL PROBLEMA QUE QUIERO RESOLVER
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                                <li>El descubrimiento del cliente. </li>
-                                                <li>Métodos, lienzos y herramientas para descubrir el problema desde la perspectiva del cliente.
-                                                </li>
-                                                <li>Aplicación práctica del método Lean Startup al problema del cliente. </li>
-
-
-                                            </ul>
-
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-                                        <h4>TARDE</h4>
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            MODELANDO EL NEGOCIO
-
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                                <li>Hipótesis de problema. </li>
-                                                <li>Diseño del experimento de validación.
-                                                </li>
-                                                <li>Saliendo a la calle a ejecutar el experimento con el cliente.</li>
-                                                <li>Aprendizaje alcanzado.  </li>
-
-                                            </ul>
-
-                                        </h4>
-
-                                    </div>
-
-
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-12">
-                        <div style="width: 10px;height: 50px; background-color: #0e90d2;    position: relative;
-                            top: 38px;
-                            margin-left: 50%;"></div>
-                    </div>
-
-                    <div  class="col-12">
-                        <div class="row contenedor" style="margin-top:70px; font-family: myFirstFont;width: 100%;">
-
-
-                            <div class="fondoblanco" style="margin: 5%; width: 100%">
-
-                                <div class="row">
-                                    <div class="col-12" align="center" style="padding-bottom: 10%;">
-                                        <h3><b>DÍA 4:
-                                        </b><br>
-                                            INTRODUCCIÓN GENERAL AL COACHING DE EMPRENDIMIENTO
-                                            E INNOVACIÓN.
-
-                                        </h3>
-
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-                                        <h4>MAÑANA</h4>
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            CREANDO UNA PROPUESTA DE VALOR INNOVADORA
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                                <li>Innovación de la propuesta de valor.</li>
-                                                <li>Métodos y lienzos para la innovación de la propuesta de valor.
-                                                </li>
-                                                <li>Aplicación del método de Lean Startup a la innovación de la propuesta de valor.</li>
-
-                                                <li>Establecer las principales hipótesis de valor.</li>
-                                                <li>Diseñar experimentos de validación de las hipótesis. </li>
-                                                <li>Ejecutar el experimento para validar.</li>
-                                                <li>Aprendizajes alcanzados.</li>
-
-                                            </ul>
-
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-                                        <h4>TARDE</h4>
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            PREPARACIÓN Y PRESENTACIÓN DEL PITCH DEL PROYECTO
-                                        </h4>
-
-                                    </div>
-
-                                    <div class="col-4" align="center">
-
-
-                                    </div>
-                                    <div class="col-7" style="padding-bottom: 2%">
-                                        <h4>
-                                            <ul style="text-align: justify; font-family: myFirstFont;font-size: 23px;">
-                                                <li>Cómo diseñar una presentación WOW para inversionistas.</li>
-                                                <li>Diseño de la presentación.
-                                                </li>
-                                                <li>Practicar la presentación.</li>
-                                                <li>Presentación ante un jurado.  </li>
-                                                <li>Evaluación y selección de los mejores proyectos. </li>
-                                                <li>Reflexión de los aprendido y cierre. </li>
-                                                <li>Próximos pasos.
-                                                </li>
-                                            </ul>
-
-                                        </h4>
-
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-
-
-                            </div>
-                        </div>
-
+        <div>
+
+        <table style="width:100%; font-family: myFirstFont;;max-width: 1100px; margin-left: auto;margin-right: auto; padding-top:2%;">
+                <tr>
+                  <th>DIAS</th>
+                  <th>MANAÑA</th>
+                  <th>TARDE</th>
+                </tr>
+                <tr>
+                  <td>DIA 1</td>
+                  <td>Un contexto para entender el fenómeno del emprendimiento y
+                    la innovación y su importancia en el mundo</td>
+                  <td>Descubre el modelo integral para el coaching de emprendimiento e innovación</td>
+                </tr>
+                <tr>
+                  <td>DIA 2</td>
+                  <td>La lógica con la que actúan los emprendedores más innovadores. <br><br>
+
+                    Lean Startup como metodología universal para la gestión del emprendimiento y la innovación
+                  </td>
+                  <td>Emprendimientos con propósito <br><br>
+
+                      Equipos ágiles de innovación <br><br>
+
+                      Inicio del simulador <br>
+                    </td>
+                </tr>
+                <tr>
+                  <td>DIA 3</td>
+                  <td>Un problema que valga la pena resolver</td>
+                  <td>Una propuesta de valor para un océano azul</td>
+                </tr>
+                <tr>
+                  <td>DIA 4</td>
+                  <td>Un modelo de negocio para escalar</td>
+                  <td>Cierre del simulador <br><br>
+                    Cocina de coaching <br>
+                    </td>
+                </tr>
+            </table>
+
+            <table style="width:100%; font-family: myFirstFont;;max-width: 1100px; margin-left: auto;margin-right: auto;">
+
+                <tr>
+                  <td>6 semanas siguientes</td>
+                  <td>Trabajarás en tu propio proyecto de emprendimiento basado en coaching. Semanalmente tendrás desafíos para diseñar un propósito más grande para tu emprendimiento, para escuchar problemas
+                    y preocupaciones de tus clientes y diseñar propuestas de valor más innovadoras. </td>
+
+                </tr>
+              </table>
+
+              </div>
+              <div class="formulario">
+                <h4>
+                  Si quieres conocer más del DISCOVER, descarga a continuación todos los detalles a continuación:
+
+                </h4>
+<br><br>
+              <div class="forum">
+                <form class="needs-validation" novalidate>
+                                      <div class="form-row">
+                                      <div class="col-6">
+                                      <label for="validationTooltip01"> <h4>Nombre</h4></label>
+                                      <input type="text" class="form-control" id="validationCustom01" placeholder="Nombre" required>
+                                      <div class="valid-feedback">
+                                      Cool!
+                                      </div>
+                                      <div class="invalid-feedback">
+                                       Dejaste este campo vacio
+                                     </div>
+                                      </div>
+                                      <div class="col-6">
+                                      <label for="validationCustom02"><h4>Apellido</h4></label>
+                                      <input type="text" class="form-control" id="validationCustom02" placeholder="Apellido" required>
+                                      <div class="valid-feedback">
+                                      Bien!
+                                      </div>
+                                      <div class="invalid-feedback">
+                                       Dejaste este campo vacio
+                                     </div>
+                                      </div>
+                                      </div>
+                                      <div class="form-row">
+                                      <div class="col-8">
+                                      <div class="form-group row">
+                                        <div class="col-10">
+                                          <br>
+                                            <label for="validationCustom03"> <h4>Email</h4> </label>
+
+                                              <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                                              <div class="valid-feedback">
+                                              Perfecto!
+                                              </div>
+                                              <div class="invalid-feedback">
+                                              Debes escribir un correo. Ejemplo:nombre@gmail.com
+                                             </div>
+                                            </div>
+
+                                      </div>
+                                      </div>
+
+                                      </div>
+                                      <div class="form-group" align="center">
+                                      <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                      <label class="form-check-label" for="invalidCheck">
+                                      <h4>Agree to terms and conditions</h4>
+                                      </label>
+                                      <div class="invalid-feedback">
+                                      You must agree before submitting.
+                                      </div>
+                                      </div>
+                                      </div>
+                                      <div align="center">
+
+
+                                      <button class="btn btn-primary" type="submit" style="background-color: #0099cc; padding: 20px 44px;">DESCARGAR AHORA!</button>
+                                      </form>
+                                      </div>
+
+                                  </div>
+              </div>
 
                 <br><br><br>
-                <div class="col-12" align="center" style="padding: 10%;">
+                <div class="col-12" align="center" style="padding: 10%;font-family: myFirstFont;">
+                    <h1 align="center"> APLICAR PARA LA EL PRÓXIMO DISCOVER</h1>
+                    <h4 align="center">
+                        Para nosotros es muy importante conectarnos con coaches con interés
+                        de desarrollar competencias de emprendimiento e innovación y que sean sensibles a
+                        los grandes cambios que están sucediendo en negocios e instituciones y poder estar a
+                        su servicio.
+                        <br><br>
+                        ¿Quieres ser parte de este viaje de descubrimiento ?
+                        </h4>
 
-
-                    <a class="redbotton" href="programacion.html" role="button" style="    padding: 22px 72px; "><span>APLICAR</span></a>
+                        <a class="redbotton" href="programacion.html" role="button" style="    padding: 22px 72px; "><span>APLICAR</span></a>
                 </div>
 
                     </div>
@@ -787,6 +477,26 @@
     </div>
 
 </div>
+<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 </body>
 
 
