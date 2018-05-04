@@ -16,6 +16,9 @@
     margin-right: auto;
     margin-bottom: 0px;
 }
+h4{
+    font-size: 1.5rem;
+}
 .lema.row{ padding-bottom: 40px;
       margin-top: -18px;
       height: auto;
@@ -52,13 +55,41 @@
 
 }
 .testimonios.row{
+  padding-top: 7%;
+  padding-bottom: 7%;
   padding-left: 10%;
     padding-right: 10%;
     font-family: myFirstFont;
     max-width: 1180px;
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+
+
+}
+.Resumen{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+
+
+}
+.ElementosDiferenciadores{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ResumenAplica{
+    font-family: myFirstFont;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    padding: 5%;
 
 }
 .blogs.row{
